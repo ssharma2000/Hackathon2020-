@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SignUp</title>
+<style>
+  body{
+    margin:0px;
+    padding: 0px;
+  }
+  .bkgrnd{
+      background-color:  #C06C84;
+  }
+ .link{
+  
+  display: inline-block;
+  color: white;
+  font-size: 35px;
+  float: right;
+  margin-top: 0.4em;
+  margin-right: 0.8em;
+
+}
+
+input[type=text],input[type=password],input[type=date] {
+  color:black;
+  width: 18%;
+  padding:14px 20px;
+  margin: 9px;
+  display:inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing:content-box;
+  height: 6px;
+  outline: none;
+}
+select{
+  color:black;
+  width: 18%;
+  padding:14px 20px;
+  margin: 9px;
+  display:inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing:content-box;
+  height: 6px;
+  outline: none;
+}
+
+input[type=submit] {
+  color:white;
+  width:16%;
+  background-color:#C06C84;
+  color: black;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: 0.6s;
+  outline: none;
+}
+/*input[type=text]:hover,input[type=password]:hover {
+  background-color: white;
+  color:black;
+}*/
+input[type=submit]:hover {
+  background-color:black;
+  color: white;
+}
+/* input[type=date] {
+  text-align: center;
+  border-radius: 8px;
+  width:10%;
+  height: 4%;
+  padding: 6px;
+  border-style: none;
+  border: 1px solid lightgrey;
+  outline: none;
+} */
+.logo{
+margin:20px;
+margin-left: 40px;
+width:150px;
+height: 150px;
+background-image: url("q.png");
+display: inline-block;
+background-size: contain;
+}
+.menu{
+margin-top:-80px;
+background-color: black;
+}
+.menu li{
+display: inline-block;
+list-style: none;
+padding: 10px;
+color:black;
+font-size: 23px;
+
+}
+nav{
+  float: right;
+  margin-right: 3em;
+}
+.menu a{
+  text-decoration:none;
+  color: black;
+  padding: 10px;
+  transition-duration: 0.8s;
+  font-family: sans-serif;
+}
+.menu a:hover{
+  background-color: black;
+  color:white;
+  border-radius: 8px;
+}
+
+.for{
+  font-family: sans-serif;
+  font-style: inline-block;
+ margin-left: 5%;
+ margin-top: 25px;
+ text-align: center;
+}
+.for li{
+  width: 100%;
+}
+
+
+</style>
+</head>
+<body>
+<!--   <div class="bkgrnd">
+  <div class="logo">
+  </div>
+  
+  <div class="link">
+   <form>
+     <input type="text" name="username" placeholder="UserId" required><br>
+     <input type="password" name="password" placeholder="Password" required>
+    <a href="park.html"><input type="submit" name="login" value="Log In"></a>
+  </form>
+</div>
+  <div class="menu">
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="detailsmenu.html">Details </a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+ -->
+
+  <div class="for">
+    
+  <form method="post"  action="project/connection1.php"  target="_blank">
+ 
+    <br><br>
+    <h1>Create a new account</h1>
+    <input type="text" name="firstname" placeholder="tag" >&nbsp
+     <input style="margin-left:30px;" type="text" name="lastname" placeholder=" firstname" >
+     <input style="margin-left:30px;" type="text" name="lastname" placeholder=" Surname" ><br>
+     
+     <input type="text" name="firstname" placeholder="institute name" >&nbsp
+     
+     <select  name="state" id="state" class="form-control">
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+      <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+      <option value="Assam">Assam</option>
+      <option value="Bihar">Bihar</option>
+      <option value="Chandigarh">Chandigarh</option>
+      <option value="Chhattisgarh">Chhattisgarh</option>
+      <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+      <option value="Daman and Diu">Daman and Diu</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Lakshadweep">Lakshadweep</option>
+      <option value="Puducherry">Puducherry</option>
+      <option value="Goa">Goa</option>
+      <option value="Gujarat">Gujarat</option>
+      <option value="Haryana">Haryana</option>
+      <option value="Himachal Pradesh">Himachal Pradesh</option>
+      <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+      <option value="Jharkhand">Jharkhand</option>
+      <option value="Karnataka">Karnataka</option>
+      <option value="Kerala">Kerala</option>
+      <option value="Madhya Pradesh">Madhya Pradesh</option>
+      <option value="Maharashtra">Maharashtra</option>
+      <option value="Manipur">Manipur</option>
+      <option value="Meghalaya">Meghalaya</option>
+      <option value="Mizoram">Mizoram</option>
+      <option value="Nagaland">Nagaland</option>
+      <option value="Odisha">Odisha</option>
+      <option value="Punjab">Punjab</option>
+      <option value="Rajasthan">Rajasthan</option>
+      <option value="Sikkim">Sikkim</option>
+      <option value="Tamil Nadu">Tamil Nadu</option>
+      <option value="Telangana">Telangana</option>
+      <option value="Tripura">Tripura</option>
+      <option value="Uttar Pradesh">Uttar Pradesh</option>
+      <option value="Uttarakhand">Uttarakhand</option>
+      <option value="West Bengal">West Bengal</option>
+      </select><br>
+
+
+
+
+
+      <input style="margin-left:30px;" type="text" name="mobile no/ email address" placeholder="Mobile number or email address">
+      
+     <input style="margin-left:30px;" type="text" name="lastname" placeholder=" Surname" ><br>
+      
+     <input type="text" name="firstname" placeholder="First Name" >&nbsp
+     <input style="margin-left:30px;" type="text" name="lastname" placeholder=" Surname" ><br>
+
+      <input type="date" name="bday">
+      
+      <input type="text" name="cityname" placeholder="New password" ><br>
+
+      
+  
+  <a style=" margin-top: -14px;" href="park.html"><input type="submit" value="Sign Up"></a>
+      </form>
+
+</div>
+</body>
+</html>
