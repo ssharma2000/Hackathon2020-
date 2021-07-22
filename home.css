@@ -1,0 +1,144 @@
+body{
+	margin:0px;
+    padding: 0px;
+    overflow-y: scroll;
+    
+   }
+
+    body::-webkit-scrollbar{
+    display: none;
+	}
+	.header{
+		width: 100%;
+		height: 75px;
+	}
+	.option{
+		float:right;
+		margin-top: -50px;
+		margin-right: 80px;
+	}
+	.option a{
+		display: inline-block;
+		font-family: 'entypo-fontello';
+		font-weight: normal;
+		font-style: normal;
+		text-decoration: none;
+		color: black;
+		font-size: 16px;
+		border: 1px solid grey;
+		background-color: grey;
+		margin-left: 10px;
+		border-radius: 8px;
+		  box-sizing:content-box;
+		  outline: none;
+		  padding: 8px 14px;
+	}
+	.menu{
+		display: inline-block;
+		font-family: 'entypo-fontello';
+		font-weight: normal;
+		font-style: normal;
+		margin-left: 25%;
+		}
+	.menu a{
+		text-decoration: none;
+		color: #01528c;
+		margin-left: 14px;
+		font-size: 18px;
+	}
+	.content{
+		width: 70%;
+	}
+	.user input[type=text],input[type=password],input[type=email] {
+		  color:black;
+		  width: 170px;
+		  padding:10px 20px;
+		  margin: 9px;
+		  display:inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 8px;
+		  box-sizing:content-box;
+		  outline: none;
+		  margin-left: 110px;
+			}
+	.user input[type=submit] {
+		  width:170px;
+		  background-color:black;
+		  color: white;
+		  padding: 10px 20px;
+		  margin: 9px;
+		  border: 1px solid #ccc;
+		  border-radius: 8px;
+		  cursor: pointer;
+		  outline: none;
+		  margin-left: 135px;
+		}
+	.user{
+		background-image: url();
+		width: 300px;
+		height: 350px;
+		margin-left: 70%;
+		margin-top: -310px;
+	}
+	.details{
+		width: 100%;
+		
+			}
+	.case{
+		width: 100%;
+		margin-top: 40px;
+		height: 400px;
+				background-color:;
+			}
+	.move{
+		margin-left: 280px;
+				}
+	.gallery {
+		margin-left: 20px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 180px;
+
+			}
+
+	.gallery:hover {
+  		border: 1px solid #777;
+		}
+
+	.gallery img {
+		width: 100%;
+		height: auto;
+	}
+
+	.desc {
+		padding: 15px;
+		text-align: center;
+	}
+
+
+	.foot{
+		width: 100%;
+		height: 400px;
+		background-color:#01528c ;
+		color: white;
+		font-family:entypo-fontello; 
+	}
+	.foot a{
+		text-decoration: none;
+		color:white;
+		font-size: 16px;
+		font-family: sans-serif;
+		margin-left: 120px;
+
+		}
+		.connect{
+			float: right;
+			margin-right: 300px;
+			margin-top: -300px;
+		}
+		.connect img{
+			color: white;
+			width: 50px;
+			height: 50px;
+			margin-left: 20px;
+		}
