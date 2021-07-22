@@ -1,0 +1,121 @@
+body{
+	margin:0px;
+    padding: 0px;
+    overflow-y: scroll;
+    
+   }
+
+    body::-webkit-scrollbar{
+    display: none;
+	}
+	.header{
+		width: 100%;
+		height: 75px;
+	}
+	.date{
+		
+		margin-left: 90%;
+		margin-top: -40px;
+	}
+	
+	input {
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: groove;
+      background-color: white;
+      }
+
+      input[type=submit] {
+		  width:170px;
+		  background-color:white;
+		  color: black;
+		  padding: 10px 20px;
+		  margin: 9px;
+		  border: 1px solid #ccc;
+		  border-radius: 8px;
+		  cursor: pointer;
+		  outline: none;
+		  margin-left: 135px;
+		}
+	
+		.fill{
+			width: 80%;
+			margin-left: 10%;
+			margin-top: -60px;
+			font-family: sans-serif;
+
+
+		}
+		.victim{
+			margin-left: 30px;
+
+		}
+		.victim input[type=text]{
+			width: 200px;
+		}
+		.incident{
+			margin-left: 30px;
+
+		}
+
+		.describe{
+			margin-left: 30px;
+			height: 650px;
+			
+		}
+		.sign{
+			display: inline-block;
+			
+		}
+		.sign p{
+			float: left;
+			
+		}
+		.vl{
+			border-left: 2px solid black;
+		position: absolute;
+		height: 1070px;
+		}
+
+		.dt{
+			margin-top: 10px;
+			margin-left: 1100px;
+			font-family: sans-serif;
+
+		}
+		.move{
+			margin-top: -60px;
+			font-family: sans-serif;
+			width: 80%;
+			margin-left: 10%;
+
+		}
+		.police{
+			margin-left: 800px;
+			margin-top: -230px;
+			width: 400px;
+		}
+		.ad{
+			margin-left: 200px;
+			
+			font-family: sans-serif;
+		}
+		.ad input[type=text],input[type=password],input[type=email] {
+			  color:black;
+			  width: 160px;
+			  padding:14px 20px;
+			  margin: 4px;
+			  display:inline-block;
+			  border: 1px solid #ccc;
+			  border-radius: 8px;
+			  box-sizing:content-box;
+			  height: 4px;
+			  outline: none;
+			}
+			.invoice{
+				width: 80%;
+				margin-left: 10%;
+				display:inline-block;
+				font-family: sans-serif;
+			}
